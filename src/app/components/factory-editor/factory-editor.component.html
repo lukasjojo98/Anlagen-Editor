@@ -1,0 +1,49 @@
+<div class="container">
+    <table id="editor-table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add" class="add" (click)="addTopVertical()"></mat-icon></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="vertical-line"></div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr id="build-row">
+            <td></td>
+            <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add" class="add" (click)="addLeftHorizontal($event)"></mat-icon></td>
+            <td><div class="horizontal-line"></div></td>
+            <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="build" id="build" class="unique"></mat-icon></td>
+            <td><div class="horizontal-line"></div></td>
+            <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add" class="add" (click)="addRightHorizontal($event)"></mat-icon></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><div class="vertical-line"></div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add" class="add" (click)="addBottomVertical()"></mat-icon></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>

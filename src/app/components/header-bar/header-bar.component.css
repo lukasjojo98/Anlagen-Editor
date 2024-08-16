@@ -1,0 +1,21 @@
+.header-container-item img{
+    width: 200px;
+    height: 70px;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 10px;
+}
+.header-container-item button{
+    border-radius: 4px;
+    background-color: rgb(255,122,5);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    width: 131px;
+}
+mat-icon {
+    color: rgb(0,106,179);
+}

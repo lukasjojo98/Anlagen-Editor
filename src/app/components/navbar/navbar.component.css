@@ -1,0 +1,21 @@
+.nav-container {
+    background-color: #0a6ab3;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-container-item {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 15px;
+}
+.nav-container-item:hover {
+    color: #98c4e1;
+    cursor: pointer;
+}
+.selected {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
